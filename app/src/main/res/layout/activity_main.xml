@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/text_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
@@ -21,6 +22,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Inbox"
+        app:layout_constraintTop_toBottomOf="@+id/text_id"
+        app:layout_constraintLeft_toLeftOf="@+id/text_id"
         tools:layout_editor_absoluteX="168dp"
         tools:layout_editor_absoluteY="405dp"
         tools:ignore="MissingConstraints" />
